@@ -52,9 +52,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#services">Services</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#gallary">Gallary</a>
-              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
@@ -78,7 +75,7 @@
         <div class="content">
             <h5>Welcome To World</h5>
             <h1>Visit <span class="changecontent"></span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, nisi.</p>
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, nisi.</p> -->
             <a href="#book">Book Place</a>
         </div>
     </div>
@@ -88,40 +85,58 @@
 
 
 
+
     <!-- Section Book Start -->
+
     <section class="book" id="book">
-      <div class="container">
+  <div class="container">
 
-        <div class="main-text">
-          <h1><span>B</span>ook</h1>
-        </div>
-        
-        <div class="row">
+    <div class="main-text text-center mb-4">
+      <h1><span>B</span>ook</h1>
+    </div>
+    
+    <div class="row justify-content-center">
 
-          <div class="col-md-6 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/book-img.png" alt="">
-            </div>
-          </div>
-
-          <div class="col-md-6 py-3 py-md-0">
-            <form action="#">
-
-              <input type="text" class="form-control" placeholder="Where To" required><br>
-              <input type="text" class="form-control" placeholder="How Many" required><br>
-              <input type="date" class="form-control" placeholder="Arrivals" required><br>
-              <input type="date" class="form-control" placeholder="Leaving" required><br>
-              <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
-              <input type="submit" value="Book Now" class="submit" required>
-
-            </form>
-          </div>
-
+      <div class="col-md-6 mb-4">
+        <div class="card">
+          <img src="./images/book-img.png" class="img-fluid" alt="Book Image">
         </div>
       </div>
-    </section>
-    <!-- Section Book End -->
 
+      <div class="col-md-6 mb-4">
+        <form action="#">
+
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Where To" required>
+          </div>
+          <div class="form-group">
+            <input type="date" class="form-control" placeholder="Check-in" required>
+          </div>
+          <div class="form-group">
+            <input type="date" class="form-control" placeholder="Check-out" required>
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" placeholder="Adults" required>
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" placeholder="Children" required>
+          </div>
+          <div class="form-group">
+            <input type="number" class="form-control" placeholder="Rooms" required>
+          </div>
+          <!-- <div class="form-group">
+            <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+          </div> -->
+          <button type="submit" class="btn btn-primary btn-block">Book Now</button>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Section Book End -->
 
 
 
