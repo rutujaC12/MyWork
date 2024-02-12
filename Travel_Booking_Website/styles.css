@@ -194,6 +194,68 @@
 }
 /* Book Section end */
 
+
+/* Book Section Start */
+.book {
+    background: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  .main-text h1 {
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .card img {
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .book .row {
+    align-items: center;
+  }
+  
+  .book form {
+    max-width: 400px; /* Adjust as needed */
+    margin: auto;
+  }
+  
+  .book form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .book form .submit {
+    width: 100%;
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .book {
+      padding: 30px 0;
+    }
+  
+    .main-text h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .book form {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  /* Adjustments for extra small screens */
+  @media (max-width: 576px) {
+    .main-text h1 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+  /* Book Section End */
+  
+
+
 /* Section Packages Start */
 .main-txt h1{
     text-align: center;
